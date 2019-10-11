@@ -184,17 +184,31 @@
         </div>
         <div class="col-sm-10">
             <h2>Task</h2>
-            <p>For the challenge, the participatnts develop an algorithm to calculate adversarial examples for the DeepSpeech speech recongtion system, which performs better than the basline attack. We assume a white-box attacks, where the attacker knows all the details of the attacked system. The task is to hide a defined target transcription within a defined audio signal. For this, the organizers will provide a list of audio files and target transcriptions and the participants will submit the modified audio files, which they caclulate with there developed attack algorithm.</p>
+            <p>For the challenge, the participatnts develop an algorithm to calculate adversarial examples for the DeepSpeech [2] speech recongtion system, which performs better than the basline attack [1]. We assume a white-box attacks, where the attacker knows all the details of the attacked system. The task is to hide a defined target transcription within a defined audio signal. For this, the organizers will provide a list of audio files and target transcriptions and the participants will submit the modified audio files, which they caclulate with there developed attack algorithm.</p>
           </div>
           <div class="col-sm-10">
             <h2>Evaluation</h2>
             <p>
                
-For the evaluation, the word error rate (WER) with respect to the target transcriptions and the segmental signal-to-noise-ratio (SNRseg) of the submitted adversarial examples will be calculated. 
+			For the evaluation, the word error rate (WER) with respect to the target transcriptions and the segmental signal-to-noise-ratio (SNRseg) of the submitted adversarial examples will be calculated. 
 
- The organizers will first calculate the mean SNRseg of the provided adversarial examples and will consider the submission only if the WER is 0%. The ranking will be based on the mean SNRseg for the submissions that fulfill the first requirement.
+ 			The organizers will first calculate the mean SNRseg of the provided adversarial examples and will consider the submission only if the WER is 0%. The ranking will be based on the mean SNRseg for the submissions that fulfill the first requirement.</p>
 
-               </p>
+			<br>
+
+				<table class="table table-borderless">
+	                <tbody>
+	                	<tr>
+	                    	<td>[1]</td>
+	                    	<td>Carlini, Nicholas and David Wagner. "Audio adversarial examples: Targeted attacks on speech-to-text." 2018 IEEE Security and Privacy Workshops, 2018.</td>
+	                    </tr>
+	                    <tr>
+	                    	<td>[2]</td>
+	                    	<td>Awni Hannun, Carl Case, Jared Casper, Bryan Catanzaro, Greg Diamos, Erich Elsen, Ryan 		Prenger, Sanjeev Satheesh, Shubho Sengupta, Adam Coates, Andrew Y. Ng "Deep speech: Scaling up end-to-end speech recognition," arXiv preprint arXiv:1412.5567, 2014.</th>
+	                      </tr>
+	                </tbody>
+	            </table>
+            </p>
           </div>
         </div>
       </div>
